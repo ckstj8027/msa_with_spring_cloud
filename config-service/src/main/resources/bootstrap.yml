@@ -1,0 +1,19 @@
+encrypt:
+#  key: abcdefghijklmnopqrsuvwxyz0123456789
+
+  key-store:
+#    location: file:///D:/springcloud/keystore/apiEncryptionKey.jks
+    location: file:/apiEncryptionKey.jks
+    password: test1234
+    alias: apiEncryptionKey
+
+#encrypt:
+#  key-store:
+#    location: file:///D:/springcloud/keystore/apiEncryptionKey.jks
+#    password: test1234  # JKS 파일에 대한 비밀번호
+#    alias: apiEncryptionKey  # JKS 파일의 alias
+#  trust-store:
+#    location: file:///D:/springcloud/keystore/publicKey.jks
+#    password: test1234  # 공개키 파일에 대한 비밀번호 (JKS의 비밀번호)
+#    alias: apiEncryptionKey  # 공개키가 포함된 alias
+

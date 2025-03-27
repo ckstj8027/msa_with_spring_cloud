@@ -1,0 +1,40 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-service
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
+
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+
+        git:
+         # default-label: main
+#          uri: file:///D:/springcloud/git-local-repo
+          uri: https://github.com/ckstj8027/spring-cloud-config
+          default-label: main
+
+        native:
+          search-locations: file:///D:/springcloud/native-file-repo
+
+
+# 만약 private 으로 만들었다면
+#          username: 깃헙이름
+#          password: 깃헙비번
+
+#      debug: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health ,busrefresh
+

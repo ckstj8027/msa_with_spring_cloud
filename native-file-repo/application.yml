@@ -1,0 +1,21 @@
+token:
+   expiration_time: 8640000
+   #secret: '{cipher}AYAvcYXcYkGeYOy3ifZzfvR7K6a36To7+mXCmR6A4P6XlynoctvlFsJx/SOYPU1t4BsLZDVhUtF1MquCQ2ur0MTIWdCundpyH4cQ+mT/Uy4swt0/huX3GyMgW88ylD6JPBPMS++EAs87kJHRHs3QG5DOpuvCnim/hqB4ehsge8DdTmD9OuphXU535R27uZFErc50XsA/ekqwgU1lofOVopfgmVhdA+oN48efqyVh67BGGsmicC8wxvWOTQSBueLTPHvefPFY5PXgLwNKarNncr58a3JQAaombEstdE4KLxcZoFZpvbcnzx8KrLZU3eTxm4HPNiEDDc2Y5dfS9gJqG4bkjzRHwyo9GxmoPOd2q5d515IPT7GAYO+n2+fkYznQsetSsYIFISQ0BgdIzc6jtozMR5yZS9jEybEwbJ5ag/wSjrqjT/SsbVu5VV3Y+FRGUZCW+YcjqzK/IVmE1EqyGkrDEAo7uTgLacG3FsR4xDVRjBx9f3rIyYmp4WSgY9cnLZNvgLjXTbq3PwzK8z7E70cSOuSraX6gUXtLm2PIE8OqoA=='
+
+
+ 
+ 
+   secret: '{cipher}AYA6qowX18TZ9olgU0JOCedFuDhhwiEquzzlNKvgtMT7OWOdtKASxd5Z1+Wwz63dfgAKGTl/Z3NErEey3BFsLKIc5Bn618zmAIhRush12wS8zDbHJnpzMzgZjsVkD8KBD49aO7pXD+PHWXIYofwkycxi8npmPGoUAEfb3Z2vodsx+mpx4Gi8/JJHPhqRuyryT2lLEG9nPfL3h/PdBNhp2TmTJVjrUAMaIu11JZpF4KKi9E/tSGRdk0hb0YLlfE8GrcayQoU5qYMm0iEKRHS0RIlJuHFD+LgWU2jAiP4kOkbwRLP6p4kQ2Abz4TRDxLECLwTacdnwl9m6ajEAjGUgxm54Wg+0moRUWHmOPakV4wdnAQr2zX9Sk+TsyPlxi4J/55gHvL9eaMY3f6AyzP9PYRoYVRWhLpqzFP10R4EsETwe9wGkWjbWckfwY2A7tZTs4urDOseSajsZcA5qJnRwNiZZa6Py/7unq2dIrRwr8qzWHdIWjcdfha0lf2/HD5g3l0kwOD3X9TjZSByC8ERqelNIKyJeC/JCvlQcx/LloMq+5IPc96kH9MbDqziXihDWtcE='
+
+  
+  # user_token_native_ecommerce
+
+gateway:
+  ip: 192.168.75.157
+
+
+order_service:
+#  url: http://127.0.0.1:8000/order-service/%s/orders  
+  url: http://ORDER-SERVICE/order-service/%s/orders 
+  exception:
+    order_is_empty: "there is no item 1234!!!!!!!!!!!!!!!!"

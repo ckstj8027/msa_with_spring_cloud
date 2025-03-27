@@ -1,0 +1,6 @@
+# token:
+#   expiration_time: 864000
+#   secret: '{cipher}AYA6qowX18TZ9olgU0JOCedFuDhhwiEquzzlNKvgtMT7OWOdtKASxd5Z1+Wwz63dfgAKGTl/Z3NErEey3BFsLKIc5Bn618zmAIhRush12wS8zDbHJnpzMzgZjsVkD8KBD49aO7pXD+PHWXIYofwkycxi8npmPGoUAEfb3Z2vodsx+mpx4Gi8/JJHPhqRuyryT2lLEG9nPfL3h/PdBNhp2TmTJVjrUAMaIu11JZpF4KKi9E/tSGRdk0hb0YLlfE8GrcayQoU5qYMm0iEKRHS0RIlJuHFD+LgWU2jAiP4kOkbwRLP6p4kQ2Abz4TRDxLECLwTacdnwl9m6ajEAjGUgxm54Wg+0moRUWHmOPakV4wdnAQr2zX9Sk+TsyPlxi4J/55gHvL9eaMY3f6AyzP9PYRoYVRWhLpqzFP10R4EsETwe9wGkWjbWckfwY2A7tZTs4urDOseSajsZcA5qJnRwNiZZa6Py/7unq2dIrRwr8qzWHdIWjcdfha0lf2/HD5g3l0kwOD3X9TjZSByC8ERqelNIKyJeC/JCvlQcx/LloMq+5IPc96kH9MbDqziXihDWtcE='
+#  # user_token_native_ecommerce
+gateway:
+  ip: 192.168.75.157
