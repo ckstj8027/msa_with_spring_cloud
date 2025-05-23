@@ -6,10 +6,15 @@ Spring Cloud 기반 MSA 프로젝트
 
 
 config-server     중앙 설정 서버
+
 eureka-server     서비스 디스커버리 서버
+
 gateway-server    API 게이트웨이
+
 order-service     주문 서비스
+
 category-service  카테고리 서비스
+
 user-service      사용자 서비스
 
 
