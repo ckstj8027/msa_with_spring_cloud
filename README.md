@@ -4,7 +4,7 @@ Spring Cloud 기반 MSA 프로젝트
 
 
 
-
+.......................................
 config-server     중앙 설정 서버
 
 eureka-server     서비스 디스커버리 서버
@@ -17,7 +17,7 @@ category-service  카테고리 서비스
 
 user-service      사용자 서비스
 
-
+.......................................
 기능 및 아키텍처 설명
 1. Config Server (설정 서버)
  -Spring Cloud Config를 이용하여 모든 마이크로서비스의 설정 정보를 중앙에서 관리합니다.
